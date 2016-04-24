@@ -1,0 +1,5 @@
+#!ipxe
+kernel coreos_production_pxe.vmlinuz coreos.autologin
+initrd coreos_production_pxe_image.cpio.gz
+boot
+
