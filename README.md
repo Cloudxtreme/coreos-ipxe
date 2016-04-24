@@ -10,4 +10,4 @@ at first run container downloads needed ipxe and coreos images (which might take
 when container is restarted it tries to download newer version if present
 
 ###usage###
-    docker run --net-host --name ipxe -d kciepluc/coreos-ipxe
+    docker run --net=host --name ipxe -d kciepluc/coreos-ipxe
